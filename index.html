@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Calculator</title>
+</head>
+<body>  
+    <div id="calc" class="calculator">
+        <div class="row">
+            <div class="col-sm-12 col-md-2 clear-row">
+                <button class="clear" id="c">C</button>
+            </div>
+            <div class="col-sm-12 col-md-10">
+                <div id="calc-display" class="cdisplay"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-2">
+                <div class="operators">
+                    <button class="btn operator-btn" id="addition">+</button>
+                    <button class="btn operator-btn" id="division">/</button>
+                    <button class="btn operator-btn" id="multiply">*</button>
+                    <button class="btn operator-btn" id="subtraction">-</button>
+                    <button class="btn operator-btn" id="equals">=</button>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-10">
+                <div class="numbers">
+                    <button class="btn number-btn" id="7">7</button>
+                    <button class="btn number-btn" id="8">8</button>
+                    <button class="btn number-btn" id="9">9</button>
+                    <button class="btn number-btn" id="4">4</button>
+                    <button class="btn number-btn" id="5">5</button>
+                    <button class="btn number-btn" id="6">6</button>
+                    <button class="btn number-btn" id="1">1</button>
+                    <button class="btn number-btn" id="2">2</button>
+                    <button class="btn number-btn" id="3">3</button>
+                    <button class="btn number-btn" id="period">.</button>
+                    <button class="btn number-btn" id="0">0</button>
+                    <button class="btn operator-btn" id="del">DEL</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/calc-functions.js"></script>
+</body>
+</html>
